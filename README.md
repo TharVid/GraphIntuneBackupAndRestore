@@ -1,4 +1,5 @@
 
+---
 
 # Intune Backup & Restore
 
@@ -12,7 +13,7 @@ If you have an older version of the module installed from the PowerShell Gallery
 
 ```powershell
 Uninstall-Module -Name IntuneBackupAndRestore
-
+```
 
 ## Importing the New Version
 
@@ -199,4 +200,5 @@ Compare-IntuneBackupDirectories -ReferenceDirectory 'C:\temp\IntuneBackup' -Diff
 ## Known Issues
 
 - Does not support backing up Intune configuration items with duplicate Display Names. Files may be overwritten.
-```
+
+---
